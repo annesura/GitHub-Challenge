@@ -1,0 +1,97 @@
+.container {
+    border: 1px solid #f0ece2;
+    background: #fff;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 20px;
+    margin: 60px auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  body {
+    background: #f0ece2;
+    font-family: "Fira Code", monospace;
+  }
+  header {
+    border-bottom: 1px solid #c7b198;
+    padding-bottom: 30px;
+  }
+  main {
+    padding: 30px 0;
+  }
+  
+  input {
+    padding: 8px;
+    font-family: "Fira Code", monospace;
+  }
+  
+  strong,
+  a {
+    color: #c7b198;
+  }
+  
+  footer {
+    text-align: center;
+    border-top: 1px solid #c7b198;
+    padding-top: 15px;
+    font-size: smaller;
+  }
+  .searchField {
+    width: 75%;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid #f0ece2;
+    background: #f0ece2;
+    padding: 15px;
+  }
+  
+  .searchButton {
+    width: 20%;
+    color: white;
+    background: #c7b198;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #c7b198;
+    border-radius: 5px;
+  }
+  .searchButton:hover {
+    background: rgba(199, 177, 152, 0.8);
+    cursor: pointer;
+  }
+  
+  .currentCity {
+    margin-bottom: 0;
+    font-size: 38px;
+    margin: 0;
+  }
+  
+  .dayInfo {
+    line-height: 1.5;
+    color: rgba(39, 33, 66, 0.7);
+  }
+  
+  .currentWeather {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .cityTemp {
+    font-size: 40px;
+    padding: 30px;
+  }
+  
+  .currentTemperatureIcon {
+    font-size: 50px;
+    position: relative;
+    top: -5px;
+    margin-right: 10px;
+  }
+  .currentTemperatureValue {
+    font-size: 60px;
+  }
+  .currentTemperatureUnit {
+    font-size: 20px;
+    position: relative;
+    top: -27px;
+  }
+  
